@@ -93,3 +93,19 @@ p{
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+/* Dark mode */
+
+  /* Dark mode styling */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+  
+  nav a.current {
+    font-weight: bold;
+  }
+  
