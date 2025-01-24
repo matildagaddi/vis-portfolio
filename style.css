@@ -20,7 +20,7 @@ nav {
         text-align: center;
         padding: 0.5em; 
         &:hover{border-bottom: 0.4em solid var(--color-accent);
-            background-color: oklch(from var(--color-accent) 95% 5% h)}
+            background-color: color-mix(in oklch, var(--color-accent), canvas 85%);}
         /* this also works outside a -> a:hover{border-bottom: 
             0.4em solid var(--color-accent);} */
     }
@@ -108,4 +108,15 @@ p{
   nav a.current {
     font-weight: bold;
   }
-  
+
+.color-scheme {
+    position: absolute;
+    top: 1rem; /* Adjust the spacing from the top */
+    right: 1rem; /* Adjust the spacing from the right */
+    font-size: 80%; /* Make the font size smaller */
+    font-family: inherit; /* Ensure it inherits the parent's font-family */
+    
+    padding: 0.5rem; /* Optional: Add some padding */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
