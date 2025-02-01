@@ -13,7 +13,7 @@
     },
     {
         "title": "RFI Text Analysis",
-        "image": "./images/RFI.png",
+        "image": "./images/rfi.png",
         "description": "Analysis of submissions to the Request for Information (RFI) sent out by the Department of Commerce for best practices for disseminating AI-ready data. Loading, finding, and counting all submissions that mention common recommendations."
     },
     {
