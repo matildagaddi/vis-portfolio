@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Attack Power Outage Prediction",
+        "year": "2024",
+        "image": "./images/power.png",
+        "description": "https://matildagaddi.github.io/power-outage-attacks/"
+    },
+    {
+        "title": "HyperECG: ECG Signal Inference from Radar Using Hyperdimensional Computing",
+        "year": "2024",
+        "image": "./images/hyperecg.png",
+        "description": "."
+    },
+    {
+        "title": "RFI Text Analysis",
+        "image": "./images/rfi.png",
+        "description": "Analysis of submissions to the Request for Information (RFI) sent out by the Department of Commerce for best practices for disseminating AI-ready data. Loading, finding, and counting all submissions that mention common recommendations."
+    },
+    {
+        "title": "Rerum ducimus quo nesciunt.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Nesciunt repellat iure saepe dolorem nam, error, assumenda quis, placeat tempora consequatur fugit molestias? Illo hic dicta, optio maxime explicabo corporis? Minima tenetur odio blanditiis aperiam doloribus quaerat accusamus quam?"
+    },
+    {
+        "title": "Cumque debitis aliquam ab?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Autem ex eum itaque! Sapiente inventore repellat repudiandae quam esse quae ad reprehenderit officiis vitae pariatur? Dolorem maxime eveniet dicta quia incidunt provident, doloribus, voluptate reiciendis veritatis ad ex. Totam."
+    },
+    {
+        "title": "Odio reprehenderit qui illo?",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Perspiciatis in praesentium cum facilis a, quasi harum voluptatem. Omnis, neque praesentium odit officia, distinctio, alias eos voluptas rerum voluptate nemo ullam nesciunt accusamus obcaecati modi deleniti maiores iste provident."
+    },
+    {
+        "title": "Doloribus, ullam repellendus. Corporis.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Ratione assumenda tempore voluptatum necessitatibus dolor, repudiandae, dicta vel soluta exercitationem repellat reiciendis nulla adipisci. Quos sed eveniet rem. Provident tempora ex vitae iste quam omnis, atque quibusdam earum aperiam?"
+    },
+    {
+        "title": "Incidunt perspiciatis quo corporis.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Officiis nihil voluptatum perferendis at sunt tempora rem ducimus soluta, nesciunt repellat placeat ipsam culpa similique repudiandae eius, delectus accusantium dolorem a minus nobis earum facere. Odio optio earum perspiciatis!"
+    },
+    {
+        "title": "Dignissimos fugit tempora rem.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Nesciunt praesentium est alias libero voluptatibus itaque, temporibus aut maiores. Recusandae veritatis, optio ipsa natus ipsum illum dicta culpa, voluptas voluptate necessitatibus non! Sint molestiae voluptas itaque rerum unde libero?"
+    },
+    {
+        "title": "Eius alias numquam veniam.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Numquam accusamus laudantium est nihil qui vero adipisci repellat. Ea officia doloribus molestiae neque mollitia ducimus animi. Accusantium iusto adipisci, debitis dignissimos quia perspiciatis ea officia. Blanditiis, unde. Architecto, nobis."
+    },
+    {
+        "title": "Fugit, nesciunt. Aperiam, et.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Voluptate a consequuntur impedit repellendus inventore sunt suscipit placeat, quia facere ad eum amet numquam fugiat hic reiciendis itaque vel dicta? Soluta cum voluptatibus ab. Optio quidem ducimus perspiciatis. Nesciunt."
+    },
+    {
+        "title": "Voluptatem provident consequatur omnis.",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Suscipit alias expedita tempora quidem, aperiam amet voluptas repellendus in aut ipsum? Ratione sed similique nostrum quod molestiae facere consequuntur asperiores. Nesciunt esse, id consectetur sit fuga deserunt commodi nihil!"
+    }
+]
