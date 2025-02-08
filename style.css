@@ -119,3 +119,109 @@ p{
     border-radius: 5px; /* Optional: Add rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
   }
+
+.project-title {
+height: 65px;  /* Adjust based on design needs */
+display: -webkit-box;
+-webkit-line-clamp: 3; /* Ensures at most 2 lines */
+-webkit-box-orient: vertical;
+overflow: hidden;
+
+/* Ensure words wrap correctly */
+white-space: normal; 
+word-wrap: break-word;
+overflow-wrap: break-word;
+
+/* Prevent single long words from forcing an ellipsis */
+hyphens: auto;  /* Adds hyphenation for long words */
+margin-top: auto;
+}
+
+#projects-plot { 
+max-width: 20em;
+margin-block: 2em;
+overflow: visible;
+}
+
+/* .swatch{
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    display: grid;
+    align-items: center;
+}  */
+.legend {
+    display: grid; /* Makes it horizontal */
+    /* flex-wrap: wrap; /* Allows items to wrap if needed */
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    gap: 10px; /* Space between items */
+    padding: 5px;
+    margin: 50px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    list-style: none; /* Removes bullet points */
+    justify-content: space-between; /* Evenly space items */
+    width: 600px;
+    height: 200px;
+    flex: 1;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Spacing between swatch and text */
+    padding: 10px;
+}
+
+.swatch {
+    /* display: grid; */
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 4px; /* Slight rounding */
+    /* background-color: ; */
+}
+
+.container {
+    display: flex;
+    /*flex-wrap: wrap; /* Allows items to wrap if needed */
+    /* aspect-ratio: 1/1;
+    width: 800px;
+    height: 600px; */
+    align-items: center;
+}
+
+.searchBar{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+
+svg{
+    &:has(path:hover) {
+        path:not(:hover) {
+          opacity: 0.5;
+        }
+      }
+}
+path {
+    transition: 100ms;
+  }
+
+.selected-slice {
+    --color: oklch(10% 10% 10) !important;
+  
+    &:is(path) {
+      fill: var(--color);
+    }
+  }
+
+.legend .selected {
+    font-weight: bold;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+  /* .selected-slice {
+    stroke: black; /* Add an outline
+    stroke-width: 1px;
+    opacity: 1; /* Slightly emphasize */
