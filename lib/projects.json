@@ -14,7 +14,7 @@
     {
         "title": "RFI Text Analysis",
         "year": "2024",
-        "image": "./images/rfi.png",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Analysis of submissions to the Request for Information (RFI) sent out by the Department of Commerce for best practices for disseminating AI-ready data. Loading, finding, and counting all submissions that mention common recommendations."
     },
     {
