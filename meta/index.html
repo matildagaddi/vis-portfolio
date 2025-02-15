@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script type="module" src="main.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <title>Meta</title>
+</head>
+<body>
+    <a class="h0">Matilda Gaddi</a>
+    <h1>Meta</h1>
+    <div id="stats"></div>
+    <p id="selection-count">No commits selected</p>
+
+    <h2>Commits by time of day</h2>
+    <div id="chart"></div>
+    <dl id="commit-tooltip" class="info tooltip" style="position: absolute; background: white; border: 1px solid black; padding: 5px; opacity: 0; visibility: hidden; transition: opacity 0.2s;">
+        <dt>Commit</dt>
+        <dd>
+          <a href="" id="commit-link" target="_blank"></a>
+        </dd>
+      
+        <dt>Date</dt>
+        <dd id="commit-date"></dd>
+        <dd id="Time"></dd>
+      
+        <!-- Add: Time, author, lines edited -->
+      </dl>
+      <dl id="language-breakdown" class="stats"></dl>
+      
+      
+
+      
+    
+</body>
+</html>

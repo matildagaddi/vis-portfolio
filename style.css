@@ -225,3 +225,39 @@ path {
     stroke: black; /* Add an outline
     stroke-width: 1px;
     opacity: 1; /* Slightly emphasize */
+
+
+/* Meta Page */
+
+/* In your CSS, add two rules:
+
+dl.info with grid layout so that the <dt>s are on the 1st column and the <dd>s on the 2nd, remove their default margins, and apply some styling to make the labels less prominent than the values.
+.tooltip with position: fixed and top: 1em; and left: 1em; to place it at the top left of the viewport so we can see it regardless of scroll status.
+Note: Why not just add everything in a single CSS rule? Because this way we can reuse the .info class for other <dl>s that are not tooltips and the .tooltip class for other tooltips that are not <dl>s. 
+*/
+
+
+circle {
+    transition: 200ms;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+circle:hover {
+    transform: scale(1.5);
+  }
+
+dl.info {
+/* ... other styles ... */
+transition-duration: 500ms;
+transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+opacity: 0;
+visibility: hidden;
+}
+
+circle.selected {
+    fill: #ff6b6b;
+  }
