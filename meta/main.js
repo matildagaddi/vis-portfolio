@@ -12,7 +12,7 @@ async function loadData() {
     }));
     //console.log(data);
     processCommits();
-    console.log("Commits after processing:", commits);
+    //console.log("Commits after processing:", commits);
     //console.log(commits);
     function displayStats() {
         // Process commits first
@@ -97,7 +97,7 @@ function createScatterplot() {
     // num lines edited = size of dots:
     //const [minLines, maxLines] = d3.extent(commits, (d) => d.totalLines);
     const [minLines, maxLines] = d3.extent(commits, (d) => d.totalLines ?? 1);
-    console.log("Min Lines:", minLines, "Max Lines:", maxLines);
+    //console.log("Min Lines:", minLines, "Max Lines:", maxLines);
     const rScale = d3.scaleLinear().domain([minLines, maxLines]).range([7, 50]).clamp(true);; // adjust these values based on your experimentation
     const svg = d3
     .select('#chart')
@@ -286,7 +286,7 @@ function brushed(event) {
 
 function updateSelection() {
   // Update visual state of dots based on selection
-  console.log("Updating selection...");
+  //console.log("Updating selection...");
   d3.selectAll('circle').classed('selected', (d) => isCommitSelected(d));
 }
 

@@ -1,2 +1,2 @@
 # vis-portfolio
- DSC 106 Lab 1
+ DSC 106 Labs
