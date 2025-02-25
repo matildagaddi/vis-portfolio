@@ -125,7 +125,7 @@ function createScatterplot() {
         .selectAll('circle')
         .data(commits)
         .join('circle')
-        .each((d) => console.log('totalLines:', d.totalLines)) // Debugging
+        //.each((d) => console.log('totalLines:', d.totalLines)) // Debugging
         .attr('cx', (d) => xScale(d.datetime))
         .attr('cy', (d) => yScale(d.hourFrac))
         .attr('r', 5)

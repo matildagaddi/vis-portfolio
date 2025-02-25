@@ -12,6 +12,12 @@
         "description": "A pioneering approach based on Hyperdimensional Computing (HDC), an efficient alternative machine learning method, to infer ECG signals from radar inputs"
     },
     {
+        "title": "Bike Share Tracking in Boston",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "https://matildagaddi.github.io/byke/"
+    },
+    {
         "title": "RFI Text Analysis",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",

@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const nav = document.createElement('nav');
-  document.body.prepend(nav);
+  // document.body.prepend(nav);
 
   const ARE_WE_HOME = document.documentElement.classList.contains('home');
   
